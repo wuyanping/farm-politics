@@ -1,0 +1,84 @@
+.clearfix:after {
+  display: block;
+  content: "\20";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/*ie8+*/
+.clearfix {
+  *zoom: 1;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.h100{
+	height: 100%;
+}
+.w100{
+	width: 100%;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+.ml-10{
+  margin-left: 10px;
+}
+.mt-10{
+  margin-top: 10px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.txt-l {
+  text-align: left;
+}
+.txt-c {
+  text-align: center;
+}
+.txt-r {
+  text-align: right;
+}
+.ellipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.moreEllipsis{
+  verflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient: vertical;
+}
+
+.grey_line{
+    height: .2rem;
+    background: #f7f5f6;
+}
+
+.of-h{
+  overflow:hidden;
+}
